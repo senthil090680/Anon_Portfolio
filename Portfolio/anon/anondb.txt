@@ -1,0 +1,65 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Aug 27, 2010 at 10:20 AM
+-- Server version: 5.1.36
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `anondb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `job`
+--
+
+CREATE TABLE IF NOT EXISTS `job` (
+  `jobid` int(4) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) DEFAULT NULL,
+  `description` varchar(1000) DEFAULT NULL,
+  `company` varchar(250) DEFAULT NULL,
+  `company_alias` varchar(250) DEFAULT NULL,
+  `receive_emails_at` varchar(250) NOT NULL,
+  `min_exp` decimal(4,0) DEFAULT NULL,
+  `max_exp` decimal(4,0) DEFAULT NULL,
+  `location` varchar(50) DEFAULT NULL,
+  `skillset` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`jobid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=41 ;
+
+--
+-- Dumping data for table `job`
+--
+
+INSERT INTO `job` (`jobid`, `title`, `description`, `company`, `company_alias`, `receive_emails_at`, `min_exp`, `max_exp`, `location`, `skillset`) VALUES
+(1, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', 'senthil_sang24@yahoo.com', '10', '15', 'Chennai', 'SOA'),
+(2, 'Enterprise Architect', 'Enterprise Architect', 'CMM Level 5', 'CMM Level 5', 'senthil_sang24@yahoo.com', '10', '15', 'Chennai', 'EA, SOA'),
+(15, 'PHP programmer job', 'This job is related to developed web pages in mumbai', 'Cognizent company', 'cog co.', 'fgfg@rkjwrjk.com', '5', '15', 'Mumbai city', 'PHP, MYSQL, JAVA, C++'),
+(16, 'Web designer', 'This job is related to creating web pages all over the world', 'Microsoft', 'Bill Gates', '', '2', '15', 'Bengaluru / Bangalore', 'PHP, DOT NET, MYSQL'),
+(17, 'Java developer', 'This job is related to developing java programs', 'TCS', 'Tata', '', '2', '13', 'Kolkata', 'Java, Javascript, Basic C'),
+(18, 'PHP developer, chennai', 'This job is related to PHP websites in chennai', 'TCS, Chennai', 'Tata, Chennai', '', '3', '11', 'Chennai', 'PHP, MYSQL, Javascript, HTML'),
+(19, 'test one', 'This is a test', 'test client', 'sdwe', '', '5', '66', 'Mumbai', 'sdfsd sdf'),
+(20, 'sdf sdfds', 'sdfds fsdfsdf', 'sdfsde sfsd', 'dfsdew esdfs', '', '45', '12', 'Kolkatta', 'sdfsd werfsd sdf'),
+(21, 'anon solutions', 'this is a web related program job in anon', 'HCL', 'HCL, Chennai', '', '2', '45', 'Chennai', 'Pho, sdfd sd'),
+(22, 'sdfd', 'sdf', 'sdfs', 'sdfds', '', '12', '12', 'Mumbai', 'sd'),
+(23, 'sdfds', 'sdfds', 'sdfsd', 'sdfsd', '', '13', '2323', 'Delhi', 'sdfsd'),
+(24, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(25, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(26, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(27, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(28, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(29, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(30, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(31, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(32, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(33, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(34, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(35, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '15', '20', 'Chennai', 'SOA'),
+(36, 'SOA Architect', 'SOA Architect/SOA Architect/SOA Architect/SOA Architect/v/SOA Architect/SOA Architect/SOA Architect/SOA Architect', 'CMM Level 5', 'CMM Level 5', '', '10', '15', 'Chennai', 'SOA'),
+(40, 'DOT NET Developer', 'This job is related to DOT NET Developer', 'Reliance', 'Rel', 'senthil_sang24@gmail.com', '1', '5', 'Mumbai', 'DOT NET, C#');

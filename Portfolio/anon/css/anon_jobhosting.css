@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.label_class{
+	font:Arial, Helvetica, sans-serif
+	font-size:14px;
+	color:#000;
+}
+
+admin_link{
+	font:arial;
+	font-size:12pX;
+	color:#000;	
+}
+.admin_link:hover{
+	text-decoration:none;
+}
+

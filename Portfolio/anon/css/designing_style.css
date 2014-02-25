@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.client_name
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:400px;
+	color:#FF9900;
+}
+
+.client_desc
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:400px;
+	color:#FFF;
+}	
+	
+
+.header{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#FF9900;
+}
+.header1{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+background-color:#FF9900;
+color:#FFFFFF;
+}
+.hdtitle{
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#FF9900;
+}
+.content{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#CCCCCC;
+letter-spacing:0.1px;
+word-spacing:.5px;
+text-align:justify;
+}
+.content:hover
+{
+	text-decoration:underline;
+}
+.pricing_content{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#CCCCCC;
+letter-spacing:0.1px;
+word-spacing:.5px;
+text-align:right;
+}
+
+.content1{
+
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#CCCCCC;
+letter-spacing:0.1px;
+word-spacing:.5px;
+text-align:justify;
+font-style:italic;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#252525;
+	scrollbar-3dlight-color:#252525;
+	scrollbar-darkshadow-color:#252525;
+	scrollbar-shadow-color:#252525;
+	scrollbar-arrow-color:#FF1801;
+	scrollbar-track-color:#252525;
+background-color:#252525;
+}
+a{
+color:#FF9900;
+text-decoration:none;
+}
+
